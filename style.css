@@ -1,0 +1,44 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #131314;
+    color: #f9f1df;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+header {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #f9f1df;
+}
+
+.player {
+    width: 100%;
+    max-width: 900px;
+    padding: 1rem;
+}
+
+footer {
+    margin-top: auto;
+    padding: 1rem;
+}
+
+footer a {
+    color: #c7bead;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
